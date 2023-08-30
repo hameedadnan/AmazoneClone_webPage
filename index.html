@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Website Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<style>
+
+.slide {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.slide1 {
+	background-image: url(
+"images/bimg1.jpg");
+}
+
+.slide2 {
+	background-image: url(
+"images/bimg2.png");
+}
+
+.slide3 {
+	background-image: url(
+"images/bimg3.jpg");
+}
+
+.arrow {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+
+#arrow-left {
+	border-width: 20px 30px 20px 0;
+	border-color: transparent #fff transparent transparent;
+	left: 0;
+	margin-left: 20px;
+}
+
+#arrow-right {
+	border-width: 20px 0 20px 30px;
+	border-color: transparent transparent transparent #fff;
+	right: 0;
+	margin-right: 20px;
+}
+
+
+</style>
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-logo">
+          <a href="#"><img src="images/amazon_logo.png" alt="logo"></a>
+        </div>
+        <div class="address">
+          <a href="#" class="deliver">Deliver</a>
+          <div class="map-icon">
+            <span class="material-symbols-outlined">location_on</span>
+            <a href="#" class="location">India</a>
+          </div>
+        </div>
+
+        <div class="nav-search">
+          <select class="select-search">
+            <option>All</option>
+            <option>All Categories</option>
+            <option>Amazon Devices</option>
+          </select>
+          <input type="text" placeholder="Search Amazon" class="search-input">
+          <div class="search-icon">
+            <span class="material-symbols-outlined">search</span>
+          </div>
+        </div>
+
+        <div class="sign-in">
+         <a href="#"> <p>Hello, sign in</p>
+          <span>Account &amp; Lists</span></a>
+        </div>
+
+        <div class="returns">
+          <a href="#"><p>Returns</p>
+            <span>&amp; Orders</span></a>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <span class="material-symbols-outlined cart-icon">shopping_cart</span>
+            </a>
+            <p>Cart</p>
+        </div>
+      </nav>
+      
+      <div class="banner">
+        <div class="banner-content">
+          <div class="panel">
+            <span class="material-symbols-outlined">menu</span>
+            <a href="#">All</a>
+          </div>
+  
+          <ul class="links">
+            <li><a href="#">Today's Deals</a></li>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">Registry</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Sell</a></li>
+          </ul>
+          <div class="deals">
+            <a href="#">Shop deals in Electronics</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-section">
+      <div id="arrow-left" class="arrow"></div>
+    <div class="slide slide1"></div>
+    <div class="slide slide2"></div>
+    <div class="slide slide3"></div>
+    <div id="arrow-right" class="arrow"></div>
+    </section>
+
+    <section class="shop-section">
+      <div class="shop-images">
+        <div class="shop-link">
+          <h3>Smart Home Devices</h3>
+          <img src="images\img 1.jpg" alt="card">
+          <a href="#">Shop now</a>
+        </div>
+        <div class="shop-link">
+          <h3>Up To 20% off on Laptops</h3>
+          <img src="images\img 2.jpg" alt="card">
+          <a href="#">Shop now</a>
+        </div>
+        <div class="shop-link">
+          <h3>Up To 50% off on sofas</h3>
+          <img src="images\img 3.jpg" alt="card">
+          <a href="#">Shop now</a>
+        </div>
+        <div class="shop-link">
+          <h3>Gaming Essentials</h3>
+          <img src="images\img 4.jpg" alt="card">
+          <a href="#">Shop now</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="#" class="footer-title">
+        Back to top
+      </a>
+      <div class="footer-items">
+        <ul>
+          <h3>Get to Know Us</h3>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press Release</a></li>
+          <li><a href="#">Amazon Science</a></li>
+        </ul>
+        <ul>
+          <h3>Connect with Us</h3>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+        <ul>
+          <h3>Make Money with Us</h3>
+          <li><a href="#">Sell on Amazon</a></li>
+          <li><a href="#">Sell under Amazon Accelerator</a></li>
+          <li><a href="#">Protect and Build Your Brand</a></li>
+          <li><a href="#">Amazon Global Selling</a></li>
+          <li><a href="#">Become an Affiliate</a></li>
+          <li><a href="#">Fulfillment by Amazon</a></li>
+          <li><a href="#">Advertise Your Products</a></li>
+          <li><a href="#">Amazon Pay on Merchants</a></li>
+        </ul>
+        <ul>
+          <h3>Let Us Help You</h3>
+          <li><a href="#">COVID-19 and Amazon</a></li>
+          <li><a href="#">Your Account</a></li>
+          <li><a href="#">Return Centre</a></li>
+          <li><a href="#">100% Purchase Protection</a></li>
+          <li><a href="#">Amazon App Download</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div style="background-color: #37475a;">
+      <img style="
+        display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  " src="images/amazon log.png" width="100px" height="50px" alt="">
+
+<select name="dropdown" id="english" style="display:flex; margin-left: auto; margin-right: auto;">
+  <option value="">Hindi</option>
+  <option value="" selected>English</option>
+  <option value="">Telugu</option>
+  <option value="">Turkey</option>
+  <option value="">Chinese</option>
+  <option value="">French</option>
+  <option value="">Tamil</option>
+  
+</select>
+  <br>
+  <p style="color: white;
+  text-align: center; font-size: small; word-spacing: 5px;">Australia
+Brazil
+Canada
+China
+France
+Germany
+Italy
+Japan
+Mexico
+Netherlands
+Poland
+Singapore
+Spain
+Turkey
+
+<span style="word-spacing: 0px;">United Kingdom</span>
+<span style="word-spacing: 0px;">United States</span>
+</p>
+<br>
+</div>
+
+
+<script>
+  let sliderImages = document.querySelectorAll(".slide"),
+	arrowLeft = document.querySelector("#arrow-left"),
+	arrowRight = document.querySelector("#arrow-right"),
+	current = 0;
+
+// Clear all images
+function reset() {
+	for (let i = 0; i < sliderImages.length; i++) {
+		sliderImages[i].style.display = "none";
+	}
+}
+
+// Initial slide
+function startSlide() {
+	reset();
+	sliderImages[0].style.display = "block";
+}
+
+// Show previous
+function slideLeft() {
+	reset();
+	sliderImages[current - 1].style.display = "block";
+	current--;
+}
+
+// Show next
+function slideRight() {
+	reset();
+	sliderImages[current + 1].style.display = "block";
+	current++;
+}
+
+// Left arrow click
+arrowLeft.addEventListener("click", function () {
+	if (current === 0) {
+		current = sliderImages.length;
+	}
+	slideLeft();
+});
+
+// Right arrow click
+arrowRight.addEventListener("click", function () {
+	if (current === sliderImages.length - 1) {
+		current = -1;
+	}
+	slideRight();
+});
+
+startSlide();
+
+</script>
+
+</body>
+</html>
